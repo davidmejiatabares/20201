@@ -1,0 +1,22 @@
+
+public class hola2 {
+
+	public static void main(String[] args) {
+		//Itera el arreglo a
+		
+	    // Inicio del for
+	    for (int i : a) {
+	        // Valida si la variable i es igual a el parámetro b
+	        // Inicio del if
+	        if (i == b) {
+	            // Regresa verdadero
+	            return true;
+	        }
+	        // Fin del if
+	        // Fin del for
+	    }
+	    // Devuelve falso
+	    return false;
+	}
+
+}
